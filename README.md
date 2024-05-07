@@ -1,13 +1,13 @@
 #Alphabet Soup Charity Success Prediction
 
-Overview
+##Overview
 
 This project develops a machine learning model using TensorFlow to predict the
 success of charity organizations in receiving funding. The aim is to assist the
 philanthropic organization, Alphabet Soup, in identifying the factors that
 contribute to the success or failure of the funding applications they receive.
 
-Data Preprocessing
+##Data Preprocessing
 
 
 The dataset provided includes various categorical and numerical features
@@ -18,7 +18,7 @@ Encoding categorical variables using one-hot encoding.
 Grouping rare occurrences in categorical variables to reduce dimensionality.
 Normalizing numerical features to ensure consistent scale.
 
-Model Development
+##Model Development
 
 
 A deep learning model was constructed using TensorFlow's Keras API with the
@@ -27,7 +27,7 @@ Multiple dense layers with a range of neurons.
 Dropout layers to prevent overfitting.
 Activation functions including ReLU, tanh, and sigmoid.
 
-Optimization Process
+##Optimization Process
 
 
 Hyperparameter tuning was conducted using Keras Tuner with a focus on:
@@ -39,7 +39,7 @@ Dropout rate for each layer.
 Callbacks like EarlyStopping and ReduceLROnPlateau were implemented to fine-tune
 the training process.
 
-Results
+##Results
 
 
 The initial model achieved an accuracy of 72%, which was incrementally improved
